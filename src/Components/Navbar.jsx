@@ -3,7 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
   return (
-    <div className=" bg-[#3c3c3c] py-2 z-30 pt-5 px-4">
+    <div className=" bg-[#262626] py-2 z-30 pt-5 px-4">
     <div className="max-w-[full] px-10 items-center flex justify-between mx-auto z-30">
         <div className="w-[120px]">
         <img src="./src/assets/logo (1).png" alt=""/>

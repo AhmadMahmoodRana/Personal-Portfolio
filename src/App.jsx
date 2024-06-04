@@ -4,7 +4,7 @@ import AnimatedCursor from "react-animated-cursor"
 const App = () => {
   return (
    <>
-   <AnimatedCursor/>
+   {/* <AnimatedCursor/> */}
    <FrontPage/>
    </>
   )

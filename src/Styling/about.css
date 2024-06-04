@@ -1,0 +1,32 @@
+.about-image-1{
+    background-image: url('../assets/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-image-2{
+    background-image: url('../assets/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* ########## MEDIA QUERIES */
+
+
+@media(min-width:1100px) and  (max-width:1496px)  {
+    .about-image-2{
+        width: 300px !important;
+        height: 450px !important;
+    }
+    .second-red-about{
+        width: 280px !important;
+        height: 200px !important;
+    }
+}

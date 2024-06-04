@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>
       
- <header className="w-full h-screen bg-[#3c3c3c] relative">
+ <header className="w-full h-screen bg-[#262626] relative">
         <Navbar />
   <section class="text-gray-600 body-font px-2">
     
@@ -60,7 +60,7 @@ const Header = () => {
 
 {
    <MouseParallaxChild factorX={0.1} factorY={0.2}>
-  <div className="xl:w-[460px] lg:w-[400px] lg:h-[440px] lg:ml-[30px] xl:h-[500px] border-4 border-white z-10  absolute xl:ml-[40px] hidden lg:block"></div>
+  <div className="xl:w-[460px] lg:w-[400px] lg:h-[440px] lg:ml-[30px] xl:h-[500px] border-4 bonprder-white z-10  absolute xl:ml-[40px] hidden lg:block"></div>
   </MouseParallaxChild> 
 }
 {
